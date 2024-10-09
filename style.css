@@ -9,12 +9,13 @@ main {
     background-color: #FFF8F8;
     margin-left: 20px;
     border-radius:50px;
+    padding-bottom:70px;
 }
 
 .intro {
     font-family: "Roboto Condensed";
     color:#71436F;
-    padding-left: 30px;
+    padding-left: 50px;
 }
 #hey-there{
     font-size: 120px;
@@ -29,7 +30,7 @@ main {
 #bio{
     font-size:46px;
     color:#71436F;
-    margin-left:40px;
+    margin-left:50px;
     margin-top:20px;
     font-family:"Montserrat", sans-serif;
     font-weight:400;
@@ -37,7 +38,7 @@ main {
 }
 #headshot {
     display:inline;
-    width: 500px;
+    max-height:650px;
     float:right;
     margin-top:10%;
     margin-right:40px;
@@ -47,8 +48,4 @@ main {
     margin-left: 200px;
     width: 5px;
     height: 250px;
-}
-
-p1 {
-
 }

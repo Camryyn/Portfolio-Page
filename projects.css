@@ -1,0 +1,21 @@
+body{
+    margin:0;
+    display:inline-block;
+} 
+
+#projects {
+    margin-left:20px;
+    width: 98%;
+    background-color: #ddf4fa;
+    margin-left: 20px;
+    border-radius:50px;
+    padding-bottom:70px;
+}
+
+.header {
+    font-family: "Roboto Condensed";
+    color:#71436F;
+    padding-left:50px;
+    padding-top:7%;
+    font-size: 60px;
+}
