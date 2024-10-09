@@ -7,7 +7,6 @@ main {
     margin-left:20px;
     width: 98%;
     background-color: #FFF8F8;
-    margin-left: 20px;
     border-radius:50px;
     padding-bottom:70px;
 }
@@ -18,17 +17,17 @@ main {
     padding-left: 50px;
 }
 #hey-there{
-    font-size: 120px;
+    font-size: 95px;
     margin-bottom:0px;
     padding-top: 10%;
 }
 #Camryn {
-    font-size: 130px;
+    font-size: 100px;
     margin-top: 0px;
     margin-bottom:0px;
 }
 #bio{
-    font-size:46px;
+    font-size:38px;
     color:#71436F;
     margin-left:50px;
     margin-top:20px;
@@ -38,14 +37,8 @@ main {
 }
 #headshot {
     display:inline;
-    max-height:650px;
+    width:400px;
     float:right;
     margin-top:10%;
     margin-right:40px;
-}
-
-#scroll-line {
-    margin-left: 200px;
-    width: 5px;
-    height: 250px;
 }
