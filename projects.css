@@ -6,16 +6,33 @@ body{
 #projects {
     margin-left:20px;
     width: 98%;
-    background-color: #ddf4fa;
+    background-color: #e7f7fc;
     margin-left: 20px;
     border-radius:50px;
     padding-bottom:70px;
+    margin-bottom:20px;
 }
 
 .header {
     font-family: "Roboto Condensed";
-    color:#71436F;
+    color:#435B71;
     padding-top:7%;
     font-size: 60px;
     text-align:center;
+}
+
+.project-container {
+    display: inline-block;
+    width: 45%;
+    background-color: #FBFEFF;
+    margin-left: 60px;
+    font-family: "Roboto Condensed";
+    border-radius:50px;
+    height: 700px;
+}
+
+.project-title {
+    font-size: 30px;
+    text-align: center;
+    color: #435B71;
 }
