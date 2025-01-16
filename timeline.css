@@ -1,0 +1,16 @@
+
+
+#timeline{
+    margin-top: 20px;
+    background-color:#FFF8F8;
+    margin-left: 20px;
+}
+
+#timeline-header {
+    font-family: "Roboto Condensed";
+    color:#71436F;
+    padding-top:7%;
+    font-size: 60px;
+    text-align:left;
+    padding-left:100px;
+}

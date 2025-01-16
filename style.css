@@ -1,0 +1,44 @@
+body{
+    margin:0;
+    display:inline-block;
+} 
+
+main {
+    margin-left:20px;
+    width: 98%;
+    background-color: #FFF8F8;
+    border-radius:50px;
+    padding-bottom:70px;
+}
+
+.intro {
+    font-family: "Roboto Condensed";
+    color:#71436F;
+    padding-left: 100px;
+}
+#hey-there{
+    font-size: 120px;
+    margin-bottom:0px;
+    padding-top: 10%;
+}
+#Camryn {
+    font-size: 130px;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+#bio{
+    font-size:38px;
+    color:#71436F;
+    margin-left:100px;
+    margin-top:20px;
+    font-family:"Montserrat", sans-serif;
+    font-weight:400;
+
+}
+#headshot {
+    display:inline;
+    width:550px;
+    float:right;
+    margin-top:6%;
+    margin-right:100px;
+}
