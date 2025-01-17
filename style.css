@@ -27,7 +27,7 @@ main {
     margin-bottom:0px;
 }
 #bio{
-    font-size:38px;
+    font-size:30px;
     color:#71436F;
     margin-left:100px;
     margin-top:20px;
@@ -37,7 +37,7 @@ main {
 }
 #headshot {
     display:inline;
-    width:550px;
+    width:33%;
     float:right;
     margin-top:6%;
     margin-right:100px;
