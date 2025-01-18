@@ -1,0 +1,58 @@
+
+.skills {
+    margin-left:20px;
+    width: 98%;
+    background-color: #FFF8F8;
+    margin-left: 20px;
+    border-radius:50px;
+    padding-bottom:70px;
+    margin-bottom:20px;
+
+}
+
+.title {
+    font-family: "Roboto Condensed";
+    color:#71436F;
+    padding-top:4%;
+    font-size: 60px;
+    text-align:center;
+}
+
+.subtitle {
+    font-size: 30px;
+    text-align: center;
+    color: #FFF8F8;
+}
+.stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .stack-item {
+    background-color: #c785bd;
+    background:linear-gradient(90deg, #e9a9b8 0%, #d472b7 35%, #71436F 100%);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 80px;
+    height: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  .stack-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+  }
+
+  .stack-item span {
+    font-size: 0.9rem;
+    color: #ffffff;
+    font-family: "Montserrat";
+  }

@@ -8,6 +8,8 @@
     <link rel = "stylesheet" href = "nav.css">
     <link rel = "stylesheet" href = "projects.css">
     <link rel = "stylesheet" href = "timeline.css">
+    <link rel = "stylesheet" href = "skills.css">
+    <link rel = "stylesheet" href = "form.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -16,11 +18,11 @@
 </head>
 <body>
     <nav>
-        <a id = "contact-me">Lets Chat!</a>
-        <a class = "navWords">Education</a>
-        <a class = "navWords">Experience</a>
-        <a class = "navWords">Skills</a>
-        <a class = "navWords">Projects</a>
+        <a href = "#contact" id = "contact-me">Lets Chat!</a>
+        <div class = "navWords" id = "jumpTo"><a href = "#timeline-header">Experience</a></div>
+        <div class = "navWords" id = "jumpTo"><a href = "#skill-title">Skills</a></div>
+        <div class = "navWords" id = "jumpTo"><a href = "#project-header">Projects</a></div>
+        <div class = "navWords" id = "jumpTo"><a href = "#hey-there">About Me</a></div>
         <!-- <img src = "images/logo.png" alt = "Logo Photo of Dragon"> -->
     </nav>
     <main>
@@ -32,7 +34,7 @@
     </main>
 
     <div id = "projects">
-        <h1 class = "header">Projects</h1>
+        <h1 id = "project-header" class = "header">Projects</h1>
         <div class = "project-container">
         <div class="card">
             <div class="card-image-container">
@@ -44,8 +46,9 @@
             </div>
             <p class="card-title">eMotive</p>
             <p class="card-des">
-                eMotive is a AI based website coded primarily in Python. 
-                To achieve accurate and usable results the LLM was trained to take user inputs and output emotional values scaled by percent of core emotions. 
+                eMotive is a AI sentimental analysis based website coded primarily in Python. 
+                To achieve accurate and usable results the LLM was trained using a database of movie reviews to help the AI differentiate positive and negative word associations. 
+                This lead to a product that takes user inputted sentences and outputs the corresponding emotional values scaled by percent of core emotions. 
                 This site also features a SQL database to save inputs and continue training model for future accuracy.
             </p>
           </div>
@@ -70,13 +73,111 @@
         </div>
     </div>
 
-    
-    <div id = "timeline">
-        <h1 id = "timeline-header"> History of Me </h1>
-        <p class = "dates">2020-2024</p>
-        <p class = "details">Highschool</p>
+    <div class = "about-me">
+        <h1 id = "timeline-header" class = "lefty"> Experience </h1>
+        <div class="timeline">
+            <div class="container left">
+              <div class="content">
+                <h2> 2024 - Present: University of Illinois Urbana Champaign</h2>
+                <p>B.S in Computer Science and Geographic Information Sciences. GPA: 3.92</p>
+              </div>
+            </div>
+            <div class="container right">
+              <div class="content">
+                <h2>2024-Present: Resilience Inc, Software Development Intern</h2>
+                <p> ● Developed IOS app aiding refugees in locating shelter, basic necessities, mental support, and jobs</br>
+           ● Refined backend parsing of geolocation data to output relevant shelter locations</br>
+                ● Applied usage of React Native and Node.js on AWS for improved distributed storage, & data accessibility</p>
+              </div>
+            </div>
+            <div class="container left">
+                <div class="content">
+                  <h2> 2024 - Present: Women in Computer Science, Backend Software Developer</h2>
+                  <p>● Optimized API in WCS site to generate member scannable QR codes for improved meeting attendance documentation</br>
+                    ● Enhanced accessibility boosting recorded meeting turnout </br>
+                    ● Applied usage of React.js and Backend API implementation</p>
+                </div>
+              </div>
+              <div class="container left">
+                <div class="content">
+                  <h2> 2024 - Present: Project:Code, Software Developer</h2>
+                  <p>● Worked on VR Harry Potter inspired game and AI tracking to connect controller movement to in-game action </br>
+                     ● Utilized Python and Unity to program game features and implement Random Forest ML Model </p>
+                </div>
+              </div>
+              <div class="container right">
+                <div class="content">
+                  <h2>2023-2024: Computing For All, FullStack Development Apprentice</h2>
+                  <p>● Designed and programmed full stack websites promoting environmental and social activism</br>
+                    ● Presented product sites to Computing For All sponsors and worked in agile scrum environment</br>
+                    ● Coded in Javascript/NoSQL, and Python/SQL to optimize sites for API & database integration </p>
+                </div>
+              </div>
+          </div>
     </div>
 
+    <div class="skills">
+        <div id = "skill-title" class="title">Skills</div>
+        <div class="subtitle">I'm most familiar with this stack:</div>
+        <div class="stack">
+          <div class="stack-item">
+            <img src="images/skills/java.png" alt="java icon">
+            <span>Java</span>
+          </div>
+          <div class="stack-item">
+            <img src="images/skills/python.png" alt="Python Icon">
+            <span>Python</span>
+          </div>
+          <div class="stack-item">
+            <img src="images/skills/javascript.png" alt="Javascript Icon">
+            <span>Javascript</span>
+          </div>
+          <div class="stack-item">
+            <img src="images/skills/react.png" alt="React Icon">
+            <span>React</span>
+          </div>
+          <div class="stack-item">
+            <img src="images/skills/c.png" alt="C++ Icon">
+            <span>C++</span>
+          </div>
+          <div class="stack-item">
+            <img src="images/skills/nosql.png" alt="NoSQL Icon">
+            <span>NoSQL</span>
+          </div>
+          <div class="stack-item">
+            <img src="images/skills/sql.png" alt="SQL Icon">
+            <span>SQL</span>
+          </div>
+          <div class="stack-item">
+            <img src="images/skills/nodejs.png" alt="Node.js Icon">
+            <span>Node.js</span>
+          </div>
+        </div>
+      </div>
+
+      <div class = "contacts">
+          <div class = "form-container" >
+            <h1 id = "contact">Reach Out!</h1>
+            <form action="https://api.web3forms.com/submit" method="POST">
+      
+              <input type="hidden" name="access_key" value="38e2c16d-bc5d-4a31-a74b-749455259028">
+          
+              <p id = "top">Name</p>
+              <input class = "inputText" type="text" name="name" placeholder = "Jane Doe" required>
+              <p>Email Address</p>
+              <input class = "inputText" type="email" name="email" placeholder = "janedoe@domain.com" required>
+              <p>Message</p>
+              <textarea class = "message" name="message" placeholder = "What's on your mind..." required></textarea>
+        
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none;"> </br>
+          
+          
+              <button id = "submitted" type="submit">Submit Form</button>
+          
+          </form>
+          
+        </div>
+      </div>
 
 </body>
 

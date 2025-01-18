@@ -8,6 +8,7 @@ nav {
     border-radius: 50px;
     margin-left:20px;
     padding:4px 0px 3px 0px;
+    z-index:2;
 }
 
 .navWords {
@@ -53,4 +54,9 @@ nav {
 nav >img {
     margin: 5px 0px 0px 20px;
     width:60px;
+}
+
+a {
+    text-decoration: none;
+    color: #71436F;
 }
